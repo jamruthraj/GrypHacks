@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #556bc8;
+  background-color: #242526;
 }
 
 #lvl {
@@ -9,7 +9,13 @@ body {
   font-size: 4rem;
   margin: 5%;
   color: #fef2bf;
+  font-style: oblique;
+  animation: blinker 2s normal infinite
 }
+
+@keyframes blinker {50%{
+  opacity: 0;
+}}
 
 .container {
   display: block;
@@ -51,3 +57,17 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+/*The following code is to give a raised button quality on hover */
+/*This might be a bit too much on the eyes so we decided to not use it*/
+/*
+.btn:hover{
+  padding: 10px;
+  border: 6px solid black;
+  box-shadow:  -1px 1px black,
+  -1px 1px black,
+  -1px 1px black,
+  -1px 1px black,
+  -1px 1px black;
+}
+*/

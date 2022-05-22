@@ -5,6 +5,8 @@ var userClickedPattern = [];
 
 var started = false;
 var level = 0;
+var delayInMilliseconds = 30; //0.03 second
+
 
 $(document).keypress(function () {
   if (!started) {
@@ -18,8 +20,10 @@ $(".btn").click(function () {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
 
-  playSound(userChosenColour);
-  animatePress(userChosenColour);
+  setTimeout(function() {
+    playSound(userChosenColour);
+    animatePress(userChosenColour);
+  }, delayInMilliseconds);
 
   checkAnswer(userClickedPattern.length - 1);
 });
@@ -68,6 +72,7 @@ function animatePress(currentColor) {
 
 function playSound(name) {
   var audio = new Audio("sounds/" + name + ".mp3");
+  audio.volume = 0.2;
   audio.play();
 }
 
