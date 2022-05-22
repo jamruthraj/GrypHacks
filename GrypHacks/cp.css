@@ -1,0 +1,97 @@
+.containerbg {
+  background-color: #fbebd2;
+}
+
+.container {
+  padding-top: 3%;
+}
+
+#desc {
+  font-size: 1.7rem;
+  margin-top: 4%;
+}
+
+.cardimg {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.us {
+  padding: 4% 13%;
+}
+
+#desc {
+  margin-top: 2%;
+  font-size: 1.3rem;
+}
+
+.main {
+  text-align: center;
+  background-color: #f5fffa;
+  padding: 1%;
+  padding-right: 6%;
+}
+
+.row {
+  margin-top: 5%;
+}
+
+.gameimg {
+  width: 60%;
+  border-radius: 3%;
+}
+
+.text {
+  padding-top: 8%;
+}
+
+.text h3 {
+  font-size: 3rem;
+}
+
+.text p {
+  font-size: 1.3rem;
+}
+
+.btn {
+  color: #f5fffa;
+  background-color: cadetblue;
+  font-weight: bolder;
+}
+
+.gameimg2 {
+  width: 70%;
+  border-radius: 3%;
+}
+
+.ml {
+  margin-left: 16%;
+}
+
+.pdtop {
+  padding-top: 5%;
+}
+
+#contrib {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.name {
+  padding: 5% 0%;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.an {
+  color: black;
+}
+
+.an:hover {
+  color: black;
+}
+
+.col {
+  padding-bottom: 2%;
+}
